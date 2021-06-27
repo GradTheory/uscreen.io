@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: 'Inter', sans-serif;
+
+}
+.sidenav {
+  height: 100%;
+  /* Full-height: remove this if you want "auto" height */
+  width: 200px;
+  /* Set the width of the sidebar */
+  position: fixed;
+  /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  left: 0;
+  background-color: white;
+ 
+  overflow-x: hidden;
+ 
+  color: black;
+  font-weight: 500;
+
+}
+/* The navigation menu links */
+.sidenav a {
+  text-decoration: none;
+  padding: 3px 0px;
+  padding-right: 5px;
+}
+.sidenav a .active {
+  color: #2e85ff;
+}
+.main {
+  margin-left: 180px;
+  /* Same as the width of the sidebar */
+
+}
+.card {
+  height: 70%;
+  width: 50%;
+}
+.svg {
+  color: #0000;
+}
+
+.dropdown {
+  position: relative;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  top: 0px;
+  right: 0px;
+  width: 200px;
+  background-color: white;
+  position: relative;
+}
+li {
+  padding-left: 30px;
+  padding-top: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+.button {
+  width: 168px;
+  height: 60px;
+  background-color: #EDF2F7;
+  color: black;
+  padding-left: 27px;
+  padding-top: 8px;
+  padding-bottom: 25px;
+}
+.button:before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border: 4px solid;
+  border-color: grey transparent transparent transparent;
+  right: 48px;
+  top: 86px;
+
+}
+
+
+
+.cont.active{
+  color: #2e85ff;
+}
