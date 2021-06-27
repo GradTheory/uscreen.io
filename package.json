@@ -1,0 +1,25 @@
+{
+  "name": "science2innovation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "heroku-postbuild": " npm install --prefix frontend && npm run build --prefix frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GradTheory/uscreen.io.git"
+  },
+  "author": "mansi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GradTheory/uscreen.io/issues"
+  },
+  "homepage": "https://github.com/GradTheory/uscreen.io#readme"
+}
